@@ -1,0 +1,7 @@
+.next
+node_modules
+public
+package-lock.json
+
+# Approved documentation — content is sign-off'd; don't let formatting churn it.
+docs/
