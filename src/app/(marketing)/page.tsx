@@ -1,4 +1,5 @@
 import { CurriculumSection } from "@/components/sections/curriculum-section";
+import { FaqSection } from "@/components/sections/faq-section";
 import { HeroSection } from "@/components/sections/hero-section";
 import { MethodSection } from "@/components/sections/method-section";
 import { ProblemSection } from "@/components/sections/problem-section";
@@ -12,6 +13,7 @@ export default function HomePage() {
       <QualifierSection />
       <MethodSection />
       <CurriculumSection />
+      <FaqSection />
     </>
   );
 }
