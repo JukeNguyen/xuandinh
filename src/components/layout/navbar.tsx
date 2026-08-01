@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import { Container } from "@/components/layout/container";
+import { useApplicationModal } from "@/components/providers/application-modal-provider";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/content/site-config";
 import { useScrolledPastHero } from "@/hooks/use-scrolled-past-hero";
@@ -15,6 +16,7 @@ const NAV_CTA_LABEL = "Apply Now";
 
 export function Navbar() {
   const { sentinelRef, scrolledPast } = useScrolledPastHero();
+  const { openModal } = useApplicationModal();
 
   return (
     <>
@@ -41,7 +43,10 @@ export function Navbar() {
           <Button
             size="md"
             ctaLocation="nav"
-            onClick={() => track("nav_cta_click", { cta_location: "nav" })}
+            onClick={() => {
+              track("nav_cta_click", { cta_location: "nav" });
+              openModal("nav");
+            }}
           >
             {NAV_CTA_LABEL}
           </Button>
