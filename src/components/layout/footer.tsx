@@ -8,7 +8,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-border bg-bg py-section-sm border-t">
+    <footer className="border-border bg-bg pt-section-sm md:pb-section-sm border-t pb-24">
       <Container className="flex flex-col items-center gap-6 text-center sm:flex-row sm:items-start sm:justify-between sm:text-left">
         <div className="flex flex-col gap-2">
           <Link href="/" className="font-display tracking-hero text-foreground text-lg">
