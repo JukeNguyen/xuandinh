@@ -3,6 +3,7 @@
 import { motion, type Variants } from "framer-motion";
 
 import { Container } from "@/components/layout/container";
+import { useApplicationModal } from "@/components/providers/application-modal-provider";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { Button } from "@/components/ui/button";
 import { heroContent } from "@/content/hero";
@@ -29,6 +30,8 @@ const itemVariants: Variants = {
 };
 
 export function HeroSection() {
+  const { openModal } = useApplicationModal();
+
   return (
     <section className="bg-bg py-section-md lg:py-section-xl flex min-h-screen items-center">
       <Container>
@@ -49,7 +52,10 @@ export function HeroSection() {
             <Button
               size="lg"
               ctaLocation={heroContent.primaryCta.ctaLocation}
-              onClick={() => track("hero_cta_click", { cta_location: "hero" })}
+              onClick={() => {
+                track("hero_cta_click", { cta_location: "hero" });
+                openModal(heroContent.primaryCta.ctaLocation);
+              }}
             >
               {heroContent.primaryCta.label}
             </Button>
