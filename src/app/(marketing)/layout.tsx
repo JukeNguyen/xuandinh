@@ -1,3 +1,4 @@
+import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { ApplicationModalProvider } from "@/components/providers/application-modal-provider";
 
@@ -14,6 +15,7 @@ export default function MarketingLayout({ children }: { children: React.ReactNod
       <main id="main-content" className="flex-1">
         {children}
       </main>
+      <Footer />
     </ApplicationModalProvider>
   );
 }
