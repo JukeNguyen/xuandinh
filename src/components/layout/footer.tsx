@@ -33,7 +33,7 @@ export function Footer() {
       </Container>
       <Container className="mt-8">
         <p className="border-border text-caption text-muted-2 border-t pt-6">
-          © {year} {siteConfig.name}. All rights reserved.
+          © {year} {siteConfig.name}. Bảo lưu mọi quyền.
         </p>
       </Container>
     </footer>

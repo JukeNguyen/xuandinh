@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 
 // The one consistent CTA label repeated across the page (DESIGN_SYSTEM.md /
 // CONTENT_STRATEGY.md §CTA Strategy) — never fragment into competing labels.
-const NAV_CTA_LABEL = "Apply Now";
+const NAV_CTA_LABEL = "Đăng Ký Ngay";
 
 export function Navbar() {
   const { sentinelRef, scrolledPast } = useScrolledPastHero();

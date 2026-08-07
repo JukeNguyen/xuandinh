@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${archivoBlack.variable} ${inter.variable} h-full antialiased`}>
+    <html lang="vi" className={`${archivoBlack.variable} ${inter.variable} h-full antialiased`}>
       <body className="relative flex min-h-full flex-col">
         <Providers>
           <GrainOverlay />

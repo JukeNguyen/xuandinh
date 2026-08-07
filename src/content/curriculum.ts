@@ -1,26 +1,29 @@
-// Sourced verbatim from CONTENT_STRATEGY.md §Unique Mechanism (The Three-Phase Install).
+// Bản dịch tiếng Việt của bản gốc trong CONTENT_STRATEGY.md §Unique Mechanism
+// (The Three-Phase Install). Tên ba giai đoạn giữ nguyên tiếng Anh (DETOX,
+// INSTALL, COMPOUND) — dịch sang tiếng Việt nghe khiên cưỡng và mất đi cảm
+// giác "tên chương trình" đã được thiết lập.
 export const curriculumContent = {
-  eyebrow: "The Mechanism",
-  title: "The Three-Phase Install",
-  subtitle: "A structured 90-day sequence — not a pile of modules released all at once.",
+  eyebrow: "Cơ Chế",
+  title: "Cài Đặt Ba Giai Đoạn",
+  subtitle: "Một trình tự có cấu trúc trong 90 ngày — không phải một đống module tung ra cùng lúc.",
   phases: [
     {
       name: "DETOX",
-      days: "Days 1–30",
+      days: "Ngày 1–30",
       description:
-        "Remove the friction-free access points that feed The Drift (environment redesign, default-setting audit); establish the non-negotiable baseline (sleep, movement, communication rules) before adding anything new.",
+        "Loại bỏ những lối tiếp cận dễ dàng nuôi dưỡng Sự Trôi Dạt (tái thiết kế môi trường sống, rà soát lại các thiết lập mặc định); thiết lập nền tảng không thể thương lượng (giấc ngủ, vận động, quy tắc giao tiếp) trước khi thêm bất cứ điều gì mới.",
     },
     {
       name: "INSTALL",
-      days: "Days 31–60",
+      days: "Ngày 31–60",
       description:
-        "Layer in the four Pillars (Body, Communication, Discipline, Warrior Mindset) as fixed daily/weekly protocols — repetition-first, motivation-independent.",
+        "Lồng ghép bốn Trụ Cột (Thể Chất, Giao Tiếp, Kỷ Luật, Tư Duy Chiến Binh) thành các quy trình cố định hằng ngày/hằng tuần — ưu tiên lặp lại, không phụ thuộc động lực.",
     },
     {
       name: "COMPOUND",
-      days: "Days 61–90",
+      days: "Ngày 61–90",
       description:
-        "Remove scaffolding, test the system under real friction (travel, bad weeks, social pressure), correct in real time with cohort/coach accountability, until the system runs without needing to be thought about.",
+        "Gỡ bỏ giàn giáo hỗ trợ, thử thách hệ thống dưới ma sát thực tế (đi công tác, những tuần tệ hại, áp lực xã hội), điều chỉnh ngay lập tức nhờ trách nhiệm với nhóm/huấn luyện viên, cho đến khi hệ thống vận hành mà không cần phải nghĩ tới nữa.",
     },
   ],
 } as const;

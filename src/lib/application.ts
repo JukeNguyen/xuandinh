@@ -3,12 +3,12 @@ import { z } from "zod";
 import { siteConfig } from "@/content/site-config";
 
 export const applicationSchema = z.object({
-  name: z.string().trim().min(2, "Enter your full name."),
-  email: z.string().trim().email("Enter a valid email address."),
+  name: z.string().trim().min(2, "Vui lòng nhập họ và tên."),
+  email: z.string().trim().email("Vui lòng nhập email hợp lệ."),
   qualifyingAnswer: z
     .string()
     .trim()
-    .min(10, "Give a real answer — a few words is enough, but not none."),
+    .min(10, "Hãy trả lời thật — vài từ cũng được, nhưng đừng bỏ trống."),
 });
 
 export type ApplicationFormValues = z.infer<typeof applicationSchema>;
@@ -21,12 +21,12 @@ export type ApplicationFormValues = z.infer<typeof applicationSchema>;
  * API call once a backend exists; no call site needs to change.
  */
 export function buildApplicationMailto(values: ApplicationFormValues): string {
-  const subject = `Application — ${values.name}`;
+  const subject = `Đơn đăng ký — ${values.name}`;
   const body = [
-    `Name: ${values.name}`,
+    `Họ và tên: ${values.name}`,
     `Email: ${values.email}`,
     "",
-    "What's the one area of discipline you're most ready to fix?",
+    "Đâu là điều kỷ luật bạn sẵn sàng thay đổi nhất ngay lúc này?",
     values.qualifyingAnswer,
   ].join("\n");
 

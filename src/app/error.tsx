@@ -18,12 +18,12 @@ export default function GlobalError({
 
   return (
     <Container className="flex min-h-[70vh] flex-col items-center justify-center gap-6 text-center">
-      <p className="font-display text-h2 text-foreground">Something went wrong</p>
+      <p className="font-display text-h2 text-foreground">Đã có lỗi xảy ra</p>
       <p className="text-body text-muted max-w-md">
-        An unexpected error occurred. You can try again, or come back later.
+        Đã xảy ra lỗi không mong muốn. Bạn có thể thử lại, hoặc quay lại sau.
       </p>
       <Button ctaLocation="error-retry" onClick={reset}>
-        Try again
+        Thử lại
       </Button>
     </Container>
   );

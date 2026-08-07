@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { useScrolledPastHero } from "@/hooks/use-scrolled-past-hero";
 import { track } from "@/lib/analytics";
 
-const CTA_LABEL = "Apply Now";
+const CTA_LABEL = "Đăng Ký Ngay";
 
 /** Mobile-only persistent CTA bar (DESIGN_SYSTEM.md §Component Standards). */
 export function StickyMobileCta() {

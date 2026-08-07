@@ -1,21 +1,21 @@
 import { siteConfig } from "@/content/site-config";
 
-// Reassurance line sourced verbatim from CONTENT_STRATEGY.md §CTA Library (Reassurance Headlines #4).
-// Button label sourced verbatim from §CTA Library (CTA Button Labels #21).
+// Bản dịch tiếng Việt.
 export const applicationContent = {
-  title: `Apply for ${siteConfig.name}`,
-  description: "If it's not right for you, we'll tell you — not just take the application.",
+  title: `Đăng Ký Tham Gia ${siteConfig.name}`,
+  description:
+    "Nếu đây không phù hợp với bạn, chúng tôi sẽ nói thẳng — chứ không chỉ nhận đơn cho có.",
   fields: {
-    name: { label: "Full name" },
+    name: { label: "Họ và tên" },
     email: { label: "Email" },
     qualifyingAnswer: {
-      label: "What's the one area of discipline you're most ready to fix?",
+      label: "Đâu là điều kỷ luật bạn sẵn sàng thay đổi nhất ngay lúc này?",
     },
   },
-  submitLabel: "Submit Your Application",
+  submitLabel: "Gửi Đơn Đăng Ký",
   submitNote:
-    "Submitting opens your email client with your application ready to send — hit send there to complete it.",
-  successTitle: "Almost done",
+    "Khi gửi, ứng dụng email của bạn sẽ mở ra với đơn đăng ký đã soạn sẵn — nhấn gửi ở đó để hoàn tất.",
+  successTitle: "Sắp xong rồi",
   successDescription:
-    "Check your email client — your application is ready to send. Once you hit send there, you're done.",
+    "Kiểm tra ứng dụng email của bạn — đơn đăng ký đã sẵn sàng để gửi. Chỉ cần nhấn gửi ở đó là xong.",
 } as const;

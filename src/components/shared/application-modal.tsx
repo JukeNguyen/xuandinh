@@ -93,7 +93,7 @@ export function ApplicationModal({ open, onOpenChange, ctaLocation }: Applicatio
                 ctaLocation={`${ctaLocation}-modal-close`}
                 onClick={() => handleOpenChange(false)}
               >
-                Close
+                Đóng
               </Button>
             </DialogFooter>
           </>

@@ -1,36 +1,36 @@
-// Sourced verbatim from CONTENT_STRATEGY.md §Enemy.
+// Bản dịch tiếng Việt của bản gốc trong CONTENT_STRATEGY.md §Enemy.
 export const problemContent = {
-  eyebrow: "The Enemy",
-  title: "The Drift",
+  eyebrow: "Kẻ Thù",
+  title: "Sự Trôi Dạt",
   subtitle:
-    "The slow, comfortable, dopamine-lubricated slide toward a smaller life — made of a thousand small unkept promises to yourself, none of which feel like a big deal on their own.",
+    "Sự trượt dài chậm rãi, êm ái, được bôi trơn bằng dopamine, dẫn tới một cuộc đời nhỏ bé hơn — tạo nên từ hàng ngàn lời hứa nhỏ bạn không giữ với chính mình, mà từng cái một chẳng có gì to tát.",
   mechanisms: [
     {
       icon: "comfort",
-      label: "Comfort",
-      description: "Removing the friction that growth actually requires.",
+      label: "Sự Thoải Mái",
+      description: "Loại bỏ ma sát cần thiết để bạn thực sự trưởng thành.",
     },
     {
       icon: "distraction",
-      label: "Distraction",
+      label: "Sự Xao Nhãng",
       description:
-        'Algorithmic dopamine loops that make "later" feel like a decision instead of what it is.',
+        'Những vòng lặp dopamine từ thuật toán khiến "để sau" nghe như một quyết định, thay vì đúng bản chất của nó.',
     },
     {
       icon: "isolation",
-      label: "Isolation",
-      description: "No one close enough to notice the standard slipping.",
+      label: "Sự Cô Lập",
+      description: "Không ai đủ gần để nhận ra tiêu chuẩn của bạn đang tụt dốc.",
     },
     {
       icon: "standards",
-      label: "Lack of Standards",
+      label: "Thiếu Tiêu Chuẩn",
       description:
-        "Nothing written down, nothing visible, so nothing to fall short of on paper, only privately.",
+        "Không có gì được viết ra, không có gì hiển hiện, nên chẳng có gì để so sánh trên giấy — chỉ có trong im lặng riêng bạn biết.",
     },
     {
       icon: "mission",
-      label: "No Mission",
-      description: "With no fixed point to move toward, any direction feels equally justified.",
+      label: "Không Có Sứ Mệnh",
+      description: "Không có điểm đến cố định, thì đi hướng nào cũng thấy hợp lý như nhau.",
     },
   ],
 } as const;

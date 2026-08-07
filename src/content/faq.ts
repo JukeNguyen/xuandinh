@@ -1,41 +1,41 @@
-// Questions sourced verbatim from CONTENT_STRATEGY.md §FAQ Strategy; answers
-// expand the paired Objection Library entries into full copy, without
-// inventing specifics (guarantee terms, exact schedules, pricing/payment
-// plans) that aren't yet defined — those three FAQ items are intentionally
-// omitted rather than answered with fabricated numbers.
+// Bản dịch tiếng Việt. Câu hỏi/câu trả lời dịch lại từ bản gốc trong
+// CONTENT_STRATEGY.md §FAQ Strategy, giữ nguyên logic: mỗi câu hỏi ứng với
+// một mối lo cụ thể, không thêm số liệu/cam kết chưa có thật (giá, bảo hành,
+// lịch gọi) — xem ghi chú trong docs/PROGRESS.md.
 export const faqContent = {
-  eyebrow: "Before You Apply",
-  title: "Questions",
+  eyebrow: "Trước Khi Đăng Ký",
+  title: "Câu Hỏi Thường Gặp",
   items: [
     {
-      question: "How much time does this actually take per day?",
+      question: "Mỗi ngày thực sự tốn bao nhiêu thời gian?",
       answer:
-        "It's built to run underneath the life you already have — not replace it. Each day's requirements are structured and bounded, not open-ended, so you always know exactly what's being asked of you before you start. This isn't a part-time job on top of your life; it's a small number of non-negotiables layered into the one you're already living.",
+        "Hệ thống được xây để chạy ngầm bên dưới cuộc sống bạn đang có — không phải thay thế nó. Yêu cầu mỗi ngày đều có cấu trúc rõ ràng và giới hạn cụ thể, không mơ hồ, nên bạn luôn biết chính xác điều gì được yêu cầu trước khi bắt đầu. Đây không phải một công việc bán thời gian chồng lên cuộc sống của bạn; đó là một số ít điều không thể thương lượng, được lồng vào cuộc sống bạn đang sống.",
     },
     {
-      question: "What if I fall behind the cohort?",
+      question: "Nếu tôi bị tụt lại phía sau nhóm thì sao?",
       answer:
-        "Falling behind for a stretch doesn't get you removed from the cohort, and it isn't treated as a failure — it's expected. Most men who've tried something like this before started strong and faded around week three or four. That's precisely why the system is sequenced in three phases instead of released all at once, and why your pod exists: to catch a bad week before it becomes a bad quarter.",
+        "Tụt lại một thời gian không khiến bạn bị loại khỏi nhóm, và điều đó cũng không bị coi là thất bại — đó là điều được dự liệu trước. Hầu hết những người từng thử điều tương tự đều bắt đầu mạnh mẽ rồi đuối dần vào khoảng tuần thứ ba, thứ tư. Đó chính xác là lý do hệ thống được chia thành ba giai đoạn theo trình tự thay vì tung ra cùng lúc, và cũng là lý do nhóm nhỏ (pod) của bạn tồn tại: để chặn một tuần tệ hại trước khi nó biến thành một quý tệ hại.",
     },
     {
-      question: "I've tried programs like this before — why would this be different?",
+      question: "Tôi từng thử những chương trình như thế này rồi — vì sao lần này sẽ khác?",
       answer:
-        "Because you weren't missing information — almost nobody who applies here is. What's been missing is installation: the sequencing, the environment redesign, and the accountability that turn something you already know into something you actually do. That's what the Three-Phase Install is built to provide, not another pile of advice.",
+        "Vì bạn chưa bao giờ thiếu thông tin — gần như không ai đăng ký ở đây thiếu điều đó cả. Thứ còn thiếu là sự cài đặt: trình tự, việc tái thiết kế môi trường sống, và trách nhiệm giải trình — những thứ biến điều bạn đã biết thành điều bạn thực sự làm. Đó là điều mà Cài Đặt Ba Giai Đoạn được xây dựng để mang lại, chứ không phải thêm một đống lời khuyên nữa.",
     },
     {
-      question: "Is this only for single men, or does it work with a family/relationship?",
+      question:
+        "Chương trình này chỉ dành cho người độc thân, hay vẫn phù hợp nếu tôi có gia đình?",
       answer:
-        "This isn't built only for men optimizing solo. The Communication pillar and the philosophy underneath this program are explicitly built around men who have people depending on them — a partner, kids, a team. Protecting and providing for others starts with governing yourself first.",
+        "Chương trình này không chỉ dành cho những người đàn ông tự hoàn thiện một mình. Trụ cột Giao Tiếp và triết lý nền tảng của chương trình được xây dựng riêng cho những người đàn ông có người phụ thuộc vào họ — bạn đời, con cái, một đội nhóm. Bảo vệ và chu cấp cho người khác bắt đầu từ việc làm chủ chính mình trước.",
     },
     {
-      question: "What happens if I'm not accepted?",
+      question: "Nếu tôi không được chấp nhận thì sao?",
       answer:
-        "If you're not a fit for this cohort, we'll tell you directly and honestly why — not go silent. Applications are reviewed for genuine seriousness and fit, since the accountability structure depends on every man in a pod actually showing up.",
+        "Nếu bạn không phù hợp với nhóm hiện tại, chúng tôi sẽ nói thẳng và trung thực lý do — chứ không im lặng biến mất. Đơn đăng ký được xét duyệt dựa trên sự nghiêm túc và mức độ phù hợp thực sự, vì cấu trúc trách nhiệm giải trình phụ thuộc vào việc mỗi người trong nhóm nhỏ thực sự có mặt.",
     },
     {
-      question: "What happens after the 90 days?",
+      question: "Điều gì xảy ra sau 90 ngày?",
       answer:
-        "The COMPOUND phase exists specifically so the system keeps running without you having to think about it — that's the point of an install, not a course you finish and forget. For men whose system needs a reset after a hard season of life, there's a recommission path back in with the alumni network.",
+        'Giai đoạn COMPOUND tồn tại chính là để hệ thống tiếp tục vận hành mà bạn không cần phải nghĩ tới nó nữa — đó là ý nghĩa của một sự cài đặt, không phải một khóa học học xong rồi quên. Với những người cần "tái khởi động" hệ thống sau một giai đoạn khó khăn trong cuộc sống, có một lộ trình quay lại thông qua mạng lưới cựu học viên.',
     },
   ],
 } as const;
