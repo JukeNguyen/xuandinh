@@ -51,7 +51,7 @@ function Button({
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
     >
-      {loading ? <span className="motion-safe:animate-pulse">Loading…</span> : children}
+      {loading ? <span className="motion-safe:animate-pulse">Đang tải…</span> : children}
     </ButtonPrimitive>
   );
 }

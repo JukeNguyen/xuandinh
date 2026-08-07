@@ -1,12 +1,11 @@
-// Nav labels reuse each section's own eyebrow (already-established section identity)
-// rather than inventing new footer-specific labels. Only links to sections that
-// actually exist on the page — no legal-page links yet, since those routes don't exist.
+// Nhãn nav lấy lại đúng eyebrow của mỗi section (đã dịch sang tiếng Việt),
+// không tạo nhãn riêng cho footer. Chỉ trỏ tới các section đang thực sự tồn tại.
 export const footerContent = {
   nav: [
-    { label: "The Enemy", href: "#problem" },
-    { label: "The Shift", href: "#qualifier" },
-    { label: "The System", href: "#method" },
-    { label: "The Mechanism", href: "#curriculum" },
-    { label: "FAQ", href: "#faq" },
+    { label: "Kẻ Thù", href: "#problem" },
+    { label: "Bước Chuyển", href: "#qualifier" },
+    { label: "Hệ Thống", href: "#method" },
+    { label: "Cơ Chế", href: "#curriculum" },
+    { label: "Câu Hỏi", href: "#faq" },
   ],
 } as const;
