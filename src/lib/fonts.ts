@@ -1,10 +1,10 @@
-import { Archivo_Black, Inter } from "next/font/google";
+import { Inter, Oswald } from "next/font/google";
 
-export const archivoBlack = Archivo_Black({
+export const oswald = Oswald({
   subsets: ["latin"],
-  weight: "400",
+  weight: "700",
   display: "swap",
-  variable: "--font-archivo-black",
+  variable: "--font-oswald",
 });
 
 export const inter = Inter({

@@ -57,14 +57,14 @@ Padding: `1.5rem` mobile → `2rem` tablet → `3rem` desktop, applied to all th
 
 ## Typography
 
-**Fonts (confirmed, V2 Open Decision #2):** Display = Archivo Black (900 weight only); Body = Inter (variable weight).
+**Fonts (updated — display font changed from Archivo Black to Oswald per user request):** Display = Oswald (700 weight); Body = Inter (variable weight).
 
 | Level | Size (fluid `clamp()`) | Weight | Line-height | Tracking | Use |
 |---|---|---|---|---|---|
 | Eyebrow | 0.875rem fixed | Inter 600 | 1.2 | +0.15em, uppercase | Small label above section headings |
-| Hero | `clamp(2.5rem, 6vw + 1rem, 6rem)` | Archivo Black | 1.05 | −0.02em | Hero headline only — the page's single `<h1>` |
-| H1 (non-hero, if ever needed) | `clamp(2rem, 4vw + 1rem, 3.5rem)` | Archivo Black | 1.08 | −0.02em | Reserved; hero owns the real h1 on this page |
-| H2 | `clamp(1.5rem, 2.5vw + 1rem, 2.5rem)` | Archivo Black | 1.1 | −0.01em | Section titles |
+| Hero | `clamp(2.5rem, 6vw + 1rem, 6rem)` | Oswald | 1.05 | −0.02em | Hero headline only — the page's single `<h1>` |
+| H1 (non-hero, if ever needed) | `clamp(2rem, 4vw + 1rem, 3.5rem)` | Oswald | 1.08 | −0.02em | Reserved; hero owns the real h1 on this page |
+| H2 | `clamp(1.5rem, 2.5vw + 1rem, 2.5rem)` | Oswald | 1.1 | −0.01em | Section titles |
 | H3 | `clamp(1.25rem, 1.5vw + 1rem, 1.75rem)` | Inter 700 | 1.2 | 0 | Curriculum module titles, FAQ questions |
 | Body Large | 1.125rem | Inter 400 | 1.6 | 0 | Section subheads, lead paragraphs |
 | Body | 1rem | Inter 400 | 1.6 | 0 | Default copy |

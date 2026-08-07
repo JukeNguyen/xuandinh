@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { GrainOverlay } from "@/components/shared/grain-overlay";
 import { Providers } from "@/components/providers/providers";
 import { siteConfig } from "@/content/site-config";
-import { archivoBlack, inter } from "@/lib/fonts";
+import { inter, oswald } from "@/lib/fonts";
 import { buildMetadata } from "@/lib/metadata";
 
 import "./globals.css";
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" className={`${archivoBlack.variable} ${inter.variable} h-full antialiased`}>
+    <html lang="vi" className={`${oswald.variable} ${inter.variable} h-full antialiased`}>
       <body className="relative flex min-h-full flex-col">
         <Providers>
           <GrainOverlay />
